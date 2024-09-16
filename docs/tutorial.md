@@ -512,7 +512,7 @@ programs:
       adapter: |
         tts_adapter_text2wav.py
       template_args:
-        model: "${data_dir}/en-us-blizzard_lessac-medium.onnx"
+        model: "${data_dir}/en-us-lessac-low.onnx"
   snd:
     aplay:
       command: |
